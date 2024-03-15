@@ -1,19 +1,6 @@
-p {
-    transition: background-color 1s ease;
-    /* Transition effect for background-color */
-}
-
-p:target {
-    background-color: yellow;
-    /* background-color: white; */
-    /* Highlight color */
-}
-
 div {
-    text-align: center;
-}
-
-div img {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
 }
